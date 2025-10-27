@@ -1,5 +1,5 @@
 import Input from "../Inputs/Input";
-import EmojiPickerPopup from "../EmojiPickerPopUp";
+import EmojiPickerPopup from "../EmojiPickerPopup";
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { Loader2 } from "lucide-react";
