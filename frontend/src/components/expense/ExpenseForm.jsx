@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import EmojiPickerPopup from "../EmojiPickerPopUp";
+import EmojiPickerPopup from "../EmojiPickerPopup";
 import Input from "../Inputs/Input";
 import { Loader2 } from "lucide-react";
 import moment from "moment";
