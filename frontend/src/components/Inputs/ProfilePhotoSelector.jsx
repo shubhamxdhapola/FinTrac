@@ -59,10 +59,10 @@ const ProfilePhotoSelector = ({ setFormData }) => {
         <div className="w-22 h-22 flex items-center justify-center bg-purple-100 rounded-full relative">
           <LuUser className="text-4xl text-primary" />
           <button
-            className={`w-8 h-8 flex items-center justify-center ${
+            className={`w-8 h-8 flex items-center justify-center bg-primary ${
               uploading || loading
                 ? "opacity-80 cursor-not-allowed"
-                : "bg-primary cursor-pointer hover:bg-primary/80"
+                : "cursor-pointer hover:bg-primary/80"
             } text-white rounded-full absolute bottom-1 -right-2 duration-300`}
             type="button"
             onClick={onChooseFile}

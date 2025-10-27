@@ -35,8 +35,6 @@ const CustomBarChart = ({ data }) => {
     return null;
   };
 
-  console.log(data)
-
   return (
     <div className="mt-6 bg-white">
       <ResponsiveContainer width="100%" height={300}>
