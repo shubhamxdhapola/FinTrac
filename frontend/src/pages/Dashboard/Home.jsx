@@ -11,9 +11,9 @@ import { LuHandCoins, LuWalletMinimal } from "react-icons/lu";
 import RecentTransactions from "../../components/dashboard/RecentTransactions";
 import FinanceOverview from "../../components/dashboard/FinanceOverview";
 import ExpenseTransactions from "../../components/charts/ExpenseTransactions";
-import Last30DaysExpenses from "../../components/dashboard/last30DaysExpenses";
 import RecentIncomeWithChart from "../../components/dashboard/RecentIncomeWithChart";
 import RecentIncome from "../../components/dashboard/RecentIncome";
+import Last30DaysExpenses from '../../components/dashboard/Last30DaysExpenses'
 
 const Home = () => {
   const { dashboardData, loading } = useSelector((state) => state.dashboard);
